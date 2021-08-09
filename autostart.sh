@@ -8,9 +8,12 @@ picom -b
 fcitx &
 /bin/bash ~/scripts/tap-to-click.sh &
 /bin/bash ~/scripts/inverse-scroll.sh &
-/bin/bash ~/scripts/setxmodmap.sh &
 nm-applet &
+/bin/bash ~/scripts/setxmodmap.sh &
 #xfce4-power-manager &
 #xfce4-volumed-pulse &
 /bin/bash ~/scripts/run-mailsync.sh &
 ~/scripts/autostart_wait.sh &
+
+sleep 1
+/bin/bash ~/scripts/setxmodmap.sh &
