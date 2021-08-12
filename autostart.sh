@@ -9,7 +9,6 @@ fcitx &
 /bin/bash ~/scripts/tap-to-click.sh &
 /bin/bash ~/scripts/inverse-scroll.sh &
 nm-applet &
-/bin/bash ~/scripts/setxmodmap.sh &
 #xfce4-power-manager &
 #xfce4-volumed-pulse &
 /bin/bash ~/scripts/run-mailsync.sh &
